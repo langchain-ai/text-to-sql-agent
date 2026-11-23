@@ -106,7 +106,7 @@ The agent uses LangChain's `create_agent` with the following workflow:
 
 1. **Discover** - Lists available tables in the database
 2. **Inspect** - Retrieves schema for relevant tables (with sample rows)
-3. **Generate** - Creates a SQL query using Claude Sonnet 4.5
+3. **Generate** - Creates a SQL query using Claude Sonnet 4.6
 4. **Validate** - Double-checks the query for syntax and safety
 5. **Execute** - Runs the query against the database
 6. **Retry** - If errors occur, automatically rewrites and retries
