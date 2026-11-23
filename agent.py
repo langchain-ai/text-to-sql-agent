@@ -48,9 +48,9 @@ def create_sql_agent():
         sample_rows_in_table_info=3
     )
 
-    # Initialize Claude Sonnet 4.5
+    # Initialize Claude Sonnet 4.6
     model = ChatAnthropic(
-        model="claude-sonnet-4-5-20250929",
+        model="claude-sonnet-4-6",
         temperature=0
     )
 
@@ -71,7 +71,7 @@ def create_sql_agent():
 def main():
     """Main entry point for the SQL Agent CLI"""
     parser = argparse.ArgumentParser(
-        description="Text-to-SQL Agent powered by LangChain and Claude Sonnet 4.5",
+        description="Text-to-SQL Agent powered by LangChain and Claude Sonnet 4.6",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

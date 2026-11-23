@@ -1,7 +1,7 @@
 [project]
 name = "text2sql-agent"
 version = "0.1.0"
-description = "A simple text-to-SQL agent using LangChain's create_agent and Claude Sonnet 4.5"
+description = "A simple text-to-SQL agent using LangChain's create_agent and Claude Sonnet 4.6"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
